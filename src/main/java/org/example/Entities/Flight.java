@@ -7,7 +7,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 
 
 @Entity
@@ -17,7 +16,7 @@ import java.util.ArrayList;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class flightEntity {
+public class Flight {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;

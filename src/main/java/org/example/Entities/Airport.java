@@ -6,7 +6,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "airports")
-public class airportEntity {
+public class Airport {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
